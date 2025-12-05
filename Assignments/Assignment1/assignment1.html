@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: rgb(14, 145, 197);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .box{
+            display: flex;
+            grid-template-columns: repeat(3,1fr);
+            gap: 15px;
+            
+        }
+        .num{
+            background-color:skyblue;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .num img{
+            width: 90%;
+            height: 270px;
+            border-radius: 10px;
+        }
+        .num h4{
+        text-align: start;
+        }
+        .num p{
+            margin-top: 10px;
+            font-family: monospace;
+            font-size: 15px;
+        
+
+        }
+        
+        @media(min-width:700px) and
+        (max-width:850px){
+            .num{
+                background-color: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animals</h1>
+    <main class="box">
+        <div class="num">
+            <img src="images/pig.jfif" alt="">
+            <h3>Title:Pig</h3>
+            <h4>Description:</h4>
+            <p>The pig is an intelligent, social, omnivorous mammal with a stout body, short legs, and a distinctive snout for rooting.</p>
+
+        </div>
+                <div class="num">
+            <img src="images/bear.jfif" alt="">
+            <h3>Title:Bear</h3>
+            <h4>Description:</h4>
+            <p>Bears are large, intelligent omnivores with stocky legs, a strong sense of smell, and non-retractable claws, found across the Americas and Eurasia.</p>
+            
+        </div>
+          <div class="num">
+            <img src="images/tiger.jfif" alt="">
+            <h3>Title:Tiger</h3>
+            <h4>Description:</h4>
+            <p>The tiger is the largest cat species, an apex predator known for its unique black stripes and being a solitary, powerful hunter and excellent swimmer.</p>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
